@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    background-color: rgb(245,245,245);
+    display: flex;
+    position: fixed;
+    padding: 20px;
+    box-shadow: 4px 2px 7px gray;
+    z-index: 1;
+}
+.logo {
+    margin-left: 90px;
+}
+.navlink{
+    margin-left: 600px;
+    color: rgb(34, 64, 147);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500px;
+
+}
+.navlink  a{
+    text-decoration: none;
+    margin-left: 40px;
+}
+.ibadan img{
+    margin-top: 100px;
+}
+.get {
+    background-color: rgb(253,185,21);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500px;
+    transform: translateX(200px);
+
+}
+.get:hover{
+    color: white;
+}
+.maiden {
+    display: flex;
+    justify-content: center;
+}
+.round {
+    border: 1px solid rgb(0,168,119);
+    border-radius: 100%;
+    animation: round 3s infinite;
+}
+@keyframes round {
+    form{
+        border: 1px solid rgb(0,168,119);
+        border-radius: 100%;
+        animation: round 3s infinite;
+    }
+    to{
+        transform: translateX(0px), rotate(360deg);
+    }
+}
+.buy{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 25px;
+}
+.tick {
+    width: 35%;
+    padding: 10px;
+    background-color: rgb(253,185,21);
+}
+.tick button{
+    border: none;
+    justify-content: center;
+    translate: 200px;
+    color: rgb(34,64,147);
+    background: none;
+    font-size: 24px;
+    font-weight: 500px;
+}
+.sponsor {
+    width: 35%;
+    border: 1px solid rgb(34,64,147);
+    padding: 10px;
+
+}
+.sponsor button{
+    border: none;
+    justify-content: center;
+    translate: 200px;
+    color: rgb(34,64,147);
+    font-size: 24px;
+    background: none;
+    font-weight: 500px;
+}
+.venue {
+    margin-top: 60px;
+    justify-content: center;
+    width: 70%;
+    height: 35vh;
+    translate: 200px;
+    padding: 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(192,141,19),rgb(85,118,207),rgb(85,118,207) );
+}
+.ven {
+    margin: auto;
+    translate: 300px;
+    color: white;
+}
+.Date{
+    translate: 300px;
+    margin: auto;
+    color: white;
+}
+.welcome {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-top: 60px;
+    translate: 50px;
+}
+.about {
+    transform: translateY(200px);
+}
